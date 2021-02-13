@@ -1,0 +1,100 @@
+:root {
+    --playstation-blue: #0172CE;
+    --playstation-gray: #757575;
+    --playstation-black: #363636;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 95%
+}
+
+body {
+    font-family: 'Noto Sans JP', sans-serif;;
+}
+
+
+/* header */
+.pslogo {
+    width: 34px;
+    height: 34px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+nav {
+    display: flex;
+}
+
+button.nav {
+    border: none;
+    cursor: pointer;
+    color: var(--playstation-gray);
+    background-color: white;
+    margin-right: 7px;
+}   
+
+.shared {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    max-width: 600px;
+}
+
+ul.social {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    justify-content: flex-end;
+    margin-left: 1250px;
+}
+
+.social-button {
+    border: none;
+    cursor: pointer;
+    background-color: white;
+    margin-right: 15px;
+}
+
+/* Menu */
+#dashboard{
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+ul.dash {
+    display: flex;
+    list-style-type: none;
+    cursor: pointer;
+    justify-content: center;
+}
+
+a .pstore--logo {
+    height: 60px;
+    width: 60px;
+}
+
+.dash  {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.tab a{
+    text-decoration: none;
+    color: var(--playstation-black);
+    margin-right: 10px;
+}
+
+
+
+
