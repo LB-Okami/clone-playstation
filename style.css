@@ -37,6 +37,8 @@ button.nav {
     color: var(--playstation-gray);
     background-color: white;
     margin-right: 7px;
+    font-weight:bold;
+    font-size: 15px;
 }   
 
 .shared {
@@ -64,31 +66,29 @@ ul.social {
 }
 
 /* Menu */
-#dashboard{
+
+.dash{
     display: flex;
-    list-style-type: none;
-    cursor: pointer;
-    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
 }
 
-ul.dash {
-    display: flex;
-    list-style-type: none;
-    cursor: pointer;
-    justify-content: center;
+
+.dash ul {
+    list-style: none;
+    margin-right: 700px;
+    font-weight: 550;
+    
+}
+.dash ul li{
+    display: inline-block;
 }
 
 a .pstore--logo {
     height: 60px;
     width: 60px;
+    margin-left: 50px;
 }
-
-.dash  {
-    display: flex;
-    justify-content: space-between;
-}
-
-
 .tab a{
     text-decoration: none;
     color: var(--playstation-black);
