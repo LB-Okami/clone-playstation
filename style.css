@@ -24,19 +24,19 @@ body {
     width: 34px;
     height: 34px;
     margin-left: 15px;
-    margin-right: 15px;
+    margin-right:30px;
 }
 
 nav {
     display: flex;
 }
 
-button.nav {
+.shared button {
     border: none;
     cursor: pointer;
     color: var(--playstation-gray);
     background-color: white;
-    margin-right: 7px;
+    margin-right: 40px;
     font-weight:bold;
     font-size: 15px;
 }   
@@ -55,7 +55,7 @@ ul.social {
     margin: 0;
     padding: 0;
     justify-content: flex-end;
-    margin-left: 1250px;
+    margin-left: 1000px;
 }
 
 .social-button {
