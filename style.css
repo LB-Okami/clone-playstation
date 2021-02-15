@@ -67,6 +67,10 @@ ul.social {
 
 /* Menu */
 
+.container {
+    margin-top: 15px;
+}
+
 .dash{
     display: flex;
     align-items: center;
@@ -85,9 +89,7 @@ ul.social {
 }
 
 a .pstore--logo {
-    height: 60px;
-    width: 60px;
-    margin-left: 50px;
+    margin-left: 28px;
 }
 .tab a{
     text-decoration: none;
