@@ -2,6 +2,7 @@
     --playstation-blue: #0172CE;
     --playstation-gray: #757575;
     --playstation-black: #363636;
+    --playstaton-ice: #F0F0F0;
 }
 
 * {
@@ -18,8 +19,33 @@ body {
     font-family: 'Noto Sans JP', sans-serif;;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+}
 
 /* header */
+.black-header { 
+    display: flex;
+    max-height: 35px;
+    background-color: black;
+    justify-content: flex-end;
+    align-content: center;
+}
+
+.sony-link {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    align-self: center;
+    letter-spacing: 1px;
+
+}
+
+
+
+
+
 .pslogo {
     width: 34px;
     height: 34px;
@@ -37,7 +63,7 @@ nav {
     color: var(--playstation-gray);
     background-color: white;
     margin-right: 40px;
-    font-weight:bold;
+    font-weight: normal;
     font-size: 15px;
 }   
 
@@ -46,7 +72,12 @@ nav {
     margin: 0;
     padding: 0;
     display: flex;
-    max-width: 600px;
+    max-width: 1000px;
+}
+
+.container-social {
+    width: 100%;
+    min-width: 600px;
 }
 
 ul.social {
@@ -63,6 +94,14 @@ ul.social {
     cursor: pointer;
     background-color: white;
     margin-right: 15px;
+    color: var(--playstation-gray);
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.social-button a {
+    color: white;
+    background-color: var(--playstation-black);
 }
 
 /* Menu */
@@ -74,14 +113,14 @@ ul.social {
 .dash{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 
 .dash ul {
     list-style: none;
-    margin-right: 700px;
     font-weight: 550;
+    margin-left: -220px;
     
 }
 .dash ul li{
@@ -89,7 +128,7 @@ ul.social {
 }
 
 a .pstore--logo {
-    margin-left: 28px;
+    margin-left: 30px;
 }
 .tab a{
     text-decoration: none;
@@ -98,5 +137,79 @@ a .pstore--logo {
 }
 
 
+/* Highlight */ 
+
+.highlights {
+    display: flex;
+    margin-top: 50px;
+    max-width: 120rem;
+    min-height: 17rem;
+    width: 100%;
+    min-width: 100%;
+    position: relative;
+    z-index: -1;
+
+}
+
+.today-highlight {
+    height: 1000px;
+    min-width: 100%;
+    z-index: -1;
+}
+
+.today-highlight-logo {
+    position: absolute;
+    align-self: center;
+    height: 200px;
+    width: 460px;
+    margin-left: 23.5rem;
+    z-index: 0;
+}
 
 
+
+.highlight-description {
+    justify-content: space-around;
+    align-items: center;
+    display: flex;
+    height: 250px;
+    margin-top: -14rem;
+    position: relative;
+    color: black;
+    background-color: rgba(255, 255, 255, 0.96)
+}
+
+.p {
+    font-weight: 350;
+    font-size: 40px;
+}
+
+/* Trends */ 
+
+.trend {
+    display: flex;
+    justify-content: center;
+    margin-top: -0.5rem;
+    margin-bottom: 4rem;
+    font-size: 2.7rem;
+    font-weight: lighter;
+}
+
+#trends, #trends ul {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-between;
+    list-style: none; 
+}
+
+.trends2 {
+    margin-top: 48px;
+}
+
+.miles {
+    margin-left: 15rem;
+}
+
+.street {
+    margin-right: 15rem ;
+}
