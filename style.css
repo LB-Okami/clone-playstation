@@ -1,5 +1,5 @@
 :root {
-    --playstation-blue: #0172CE;
+    --playstation-blue: #00439C;
     --playstation-gray: #757575;
     --playstation-black: #363636;
     --playstaton-ice: #F0F0F0;
@@ -212,4 +212,112 @@ a .pstore--logo {
 
 .street {
     margin-right: 15rem ;
+}
+
+/* See more */ 
+
+#more {
+    max-width: 1860px;
+    margin-bottom: 100px;
+}
+
+#more h2 {
+    text-align: center;
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.more-items {
+    max-width: 100%;
+}
+
+.items li {
+    list-style-type: none;
+}
+
+.items {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    gap: 30px;
+    justify-content: center;
+
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+}
+
+.flex li {
+    list-style-type: none;
+    margin-top: 30px;
+    margin-right: 30px;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: var(--playstation-blue);
+    padding: 2rem;
+}
+
+.region {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+    margin-left: 18.5rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.region > h3 {
+    font-weight: lighter;
+    color: white;
+}
+
+.logo-white {
+    max-height: 4.5rem;
+    margin-right: 2.5rem;
+}
+
+.globe-white {
+    height: 30px;
+    margin-right: 1rem;
+}
+
+.contact {
+    width: 64rem;
+    margin-left: 20rem;
+    margin-bottom: 5rem;
+}
+
+.contact > ul {
+    display: flex;
+    list-style-type: none;
+    color: white;
+    font-weight: 400;
+    justify-content: space-between;
+}
+
+.flex2 {
+    margin-left: 5rem; 
+}
+
+.flex1 > li, .flex2 > li, .flex3 > li {
+    margin-bottom: 1rem;
+}
+
+.rights {
+    text-align: center;
+    margin-bottom: 4.3rem;
+}
+
+.rights > p > a {
+    color: white;
+    font-weight: 350;
 }
