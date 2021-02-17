@@ -3,6 +3,8 @@
     --playstation-gray: #757575;
     --playstation-black: #363636;
     --playstaton-ice: #F0F0F0;
+    --playstation-lightblue: #99DAFF;
+    --playstation-hover: #0072CE;
 }
 
 * {
@@ -202,6 +204,15 @@ a .pstore--logo {
     list-style: none; 
 }
 
+#trends > ul > li > a > img {
+    padding: 2px;
+}
+
+#trends > ul > li:hover {
+    border: 2px solid var(--playstation-hover);
+    max-height: 452px;
+}
+
 .trends2 {
     margin-top: 48px;
 }
@@ -235,6 +246,15 @@ a .pstore--logo {
 
 .items li {
     list-style-type: none;
+}
+
+#more > section > ul > li > a > img {
+    padding: 2px;
+}
+
+#more > section >  ul > li:hover {
+    max-height: 452px;
+    border: 2px solid var(--playstation-hover);
 }
 
 .items {
@@ -299,16 +319,23 @@ footer {
 .contact > ul {
     display: flex;
     list-style-type: none;
-    color: white;
     font-weight: 400;
     justify-content: space-between;
+}
+
+.flex1 > a > li, .flex2 > a > li, .flex3 > a > li {
+    color: white;
+}
+
+.flex1 > a > li:hover, .flex2 > a > li:hover, .flex3 > a > li:hover  {
+    color: var(--playstation-lightblue);
 }
 
 .flex2 {
     margin-left: 5rem; 
 }
 
-.flex1 > li, .flex2 > li, .flex3 > li {
+.flex1 > a > li, .flex2 > a > li, .flex3 > a > li {
     margin-bottom: 1rem;
 }
 
@@ -320,4 +347,8 @@ footer {
 .rights > p > a {
     color: white;
     font-weight: 350;
+}
+
+.rights > p > a:hover {
+    color: var(--playstation-lightblue);
 }
